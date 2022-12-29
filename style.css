@@ -1,0 +1,516 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    background-color: #dadada;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#nav-left{
+ display: flex;
+ gap:10px;
+ align-items:center;
+}
+#nav-left img{
+ height: 50px;
+}
+#nav-left h1{
+    font-size: 25px;
+    font-family:  'Montserrat', sans-serif;
+}
+#nav-right{
+    display: flex;
+    /* gap: 3%; */
+    gap: 15px;
+}
+
+#nav-right a{
+    text-decoration: none;
+    color: #414040;
+    font-size: 15px;
+    text-align: center;
+}
+
+#nav-right a:hover{
+    color:black;
+}
+#center{
+    height: calc(100vh - 52px);
+    position: relative;
+}
+#center img{
+    height: 100%;
+    width: 100%;
+}
+
+#heading{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(245, 148, 112);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+#heading h2{
+    line-height:55px;
+    font-family:'EB Garamond', serif;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 20px 10px;
+    color: #fff;
+}
+#heading .icons{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.icons i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fefefe;
+}
+
+#page2{
+    height: 300px;
+    background-color: #414040;
+    color: #fefefe;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#page2 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#page2 p{
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px auto 0 auto;
+      
+}
+.number{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.cno{
+    height: 40px;
+    overflow: hidden;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+.cno h1{
+    font-size: 40px;
+}
+
+.clients>h1{
+    margin-top: 10px;
+}
+
+#page3{
+    height: 600px;
+    background-color:#dadada;
+    display: flex;
+}
+#page3-left{
+    padding: 20px;
+    padding-left: 50px;
+    width: 50%;
+}
+
+#page3-left h3{
+    font-family:'EB Garamond', serif;
+    font-size: 20px;
+}
+#page3-left h1{
+    margin-left: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#page3-left p{
+    margin-top: 25px;
+    margin-left: 150px;
+    width: 500px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#video-box{
+    margin-top: 10px;
+    margin-left: 150px;
+    height: 350px;
+    width: 60%;
+    /* background-color: red; */
+}
+
+#video-box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.read{
+    height: 40px;
+    width: 100px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+#page3-right{
+    width: 50%;
+}
+#page3-right img{
+    padding: 20px;
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page4{
+    height: 100%;
+}
+#page4-top{
+    height: 200px;
+    background-color: rgb(245, 148, 112);
+    display: flex;
+    padding: 20px 50px;
+    gap: 20px;
+}
+.events{
+    width: 90%;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.eve{
+    width:30%;
+    border-right: 2px solid #fefefe;
+    
+}
+.eve h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color:#fff;
+    font-weight: 400; 
+}
+
+.eve1{
+    border-right: 2px solid #fefefe;
+    width: 30%;
+}
+
+.eve1 h2, .eve2 h2{
+    color: #fff;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.eve1 .icons, .eve2 .icons{
+    margin-top: 20px;
+}
+
+#page4-down{
+    overflow: hidden;
+    display: flex;
+}
+
+.img-container{
+    height: calc(100vh - 200px);
+    width: 400px;
+    position: relative;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.img-caption{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #dadada;
+    background-color: #414040;
+    padding: 10px;
+}
+#page5{
+    height: 100%;
+}
+
+#page5-top{
+    height: 50%;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#page5-down{
+    height: 50%;
+    background-color: #dadada;
+    padding: 20px 30px;
+    display: flex;
+}
+
+.down-left{
+    width: 40%;
+    padding: 50px;
+    font-size: 25px;
+}
+.down-right{
+    width: 50%;
+}
+.down-right p{
+    font-size: 18px;
+    margin: 10px 0px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.down-right li{
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 30%;
+}
+
+.box h1{
+    font-size: 25px;
+
+}
+.box button{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: rgb(245, 148, 112);
+    padding: 15px;
+}
+
+.circle i{
+    font-size: 30px;
+}
+
+#page6{
+    height: 100vh;
+    background-color: #414040;
+}
+#page6 .customer{
+    height: calc(100vh - 200px);
+}
+#page6 .contact{
+    background-color: rgb(245, 148, 112);
+    height: 210px;
+    padding:30px 32%; 
+    color: brown;
+    padding-top: 10px;
+}
+.contact h1{
+    text-align: center;
+}
+.contact .contact-part{
+    padding: 10px 30px;
+    display: flex;
+    gap:100px;
+   width: 600px;
+}
+
+.customer{
+    padding: 30px 32%;
+}
+.customer> h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.review{
+    height: 400px;
+    width: 600px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+/* 
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+.profile{
+    margin: 0px 40%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: #414040;
+  }
+
+.profile img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 30% 30%;
+    
+  }
+.swiper-slide h1{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:700px){
+    /* #nav{
+        height: 100px;
+    }
+    #nav-right{
+        display: block;
+    }
+    #nav-right a{
+        display: block;
+    } */
+    #heading{
+        width: 300px;
+    }
+
+    #page2{
+        height: 100%;
+    }
+    #page2 p{
+        width:400px
+    }
+    .number{
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 100%;
+        font-size: 12px;
+    }
+    .clients{
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #page3 h1{
+       margin-left: 0px;
+    }
+
+    #page3 #video-box{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #page3-left{
+        width: 50%;
+    }
+    #page3-right{
+        width: 50%;
+    }
+    #page3-left p{
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+   
+    #page4-top{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .events{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .eve{
+        width: 33%;
+    }
+    .eve h1{
+        font-size: 30px;
+    }
+    .eve1{
+        width: 33%;
+    }
+
+    /* #page4-down .img-container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #page4-down img{
+        object-position: center;
+    } */
+
+    #page5-down .down-left{
+        padding-left: 30px;
+    }
+    #page5-down .down-left h1{
+        font-size: 40px;
+    }
+
+    .box p{
+        font-size: 13px;
+    }
+    .customer{
+        padding: 30px 15%;
+    }
+    .review{
+        width: 500px;
+    }
+    #page6 .contact {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
